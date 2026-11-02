@@ -1,8 +1,8 @@
 {
   "$schema": "https://open.divekit.app/schemas/dive-signals/dive-signals.schema.v1.0.0.json",
   "meta": {
-    "version": "2026.11.01.1",
-    "generated_at": "2026-11-01T12:00:00Z"
+    "version": "2026.11.02.1",
+    "generated_at": "2026-11-02T06:30:00Z"
   },
   "signals": [
     {
@@ -200,6 +200,55 @@
       "name": "Let's Talk",
       "description": "Fingers and thumb together, open and close repeatedly like a talking mouth. I need to talk to you. Usually means we should surface for verbal communication.",
       "image": "assets/dive-signals/hand/core/talk.svg"
+    },
+    {
+      "id": "hand-core-surface-ok",
+      "category": "hand-core",
+      "name": "OK (Surface)",
+      "description": "Both arms overhead with the fingertips touching above the head to make a large O. I'm OK, or 'Are you OK?', at the surface and at a distance, for example to the boat, where a hand signal is too small to see. Respond with the same signal if OK.",
+      "image": "assets/dive-signals/hand/core/surface-ok.svg"
+    },
+    {
+      "id": "hand-core-surface-ok-one-hand",
+      "category": "hand-core",
+      "name": "OK (Surface, One Hand)",
+      "description": "One arm overhead with the fingertips touching the top of the head to make a large O. The surface OK when one hand is occupied, for example holding a line or a camera.",
+      "image": "assets/dive-signals/hand/core/surface-ok-one-hand.svg"
+    },
+    {
+      "id": "hand-core-low-on-air",
+      "category": "hand-core",
+      "name": "Low on Air",
+      "description": "Clenched fist moved inward toward the chest. Repeat the motion to show urgency. I'm low on air. Not an out-of-air emergency: agree before the dive at what pressure to give it, then end the dive with your buddy.",
+      "image": "assets/dive-signals/hand/core/low-on-air.svg"
+    },
+    {
+      "id": "hand-core-go-that-way",
+      "category": "hand-core",
+      "name": "Go That Way",
+      "description": "Fist with the thumb extended and pointing in the direction to swim. Swim in the indicated direction.",
+      "image": "assets/dive-signals/hand/core/go-that-way.svg"
+    },
+    {
+      "id": "hand-core-which-direction",
+      "category": "hand-core",
+      "name": "Which Direction?",
+      "description": "Fist with the thumb extended sideways, rotated back and forth through 180 degrees several times. Which way do we go? Shows you are unsure of the direction of travel.",
+      "image": "assets/dive-signals/hand/core/which-direction.svg"
+    },
+    {
+      "id": "hand-core-me",
+      "category": "hand-core",
+      "name": "Me / I",
+      "description": "Point to yourself at chest height with the index finger. Refers to yourself, usually together with another signal.",
+      "image": "assets/dive-signals/hand/core/me.svg"
+    },
+    {
+      "id": "hand-core-dont-know",
+      "category": "hand-core",
+      "name": "I Don't Know",
+      "description": "Hands held out to each side of the body, palms up, shoulders shrugged. I don't know, or I'm unsure what you mean.",
+      "image": "assets/dive-signals/hand/core/dont-know.svg"
     },
     {
       "id": "hand-technical-hold",
